@@ -1,5 +1,5 @@
 
-# Data Science Projects for Stock Market Domain
+# Data Science for Stock Market 
 
 This repository contains a collection of data science project ideas related to the stock market domain. These projects are intended to provide inspiration and guidance for aspiring data scientists looking to apply their skills to this field. Each project description provides a brief overview of the problem or question of interest, as well as a list of relevant techniques and algorithms that could be used to address the problem.
 
