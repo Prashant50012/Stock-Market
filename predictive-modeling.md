@@ -17,8 +17,39 @@ The methodology for this project would involve several key steps:
 
 5. **Model evaluation:** The final step would be to evaluate the performance of the model using appropriate metrics such as mean squared error or R-squared. The model could also be tested on out-of-sample data to assess its ability to generalize to new data.
 
-<script src="https://gist.github.com/thabresh-s/9dc6d4dd06fa8a6ec533dfb2a2065d37.js"></script>
+```
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 
+# Load the dataset into a Pandas DataFrame
+data = pd.read_csv('stock_data.csv')
+
+# Clean and preprocess the data
+data = data.dropna()
+data = (data - data.mean()) / data.std()
+
+# Select relevant features
+features = ['Volume', 'PE Ratio', 'Moving Average']
+X = data[features]
+y = data['Close']
+
+# Split the data into training and testing sets
+split = int(0.8 * len(data))
+X_train = X[:split]
+X_test = X[split:]
+y_train = y[:split]
+y_test = y[split:]
+
+# Create and train the model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Evaluate the model
+y_pred = model.predict(X_test)
+mse = mean_squared_error(y_test, y_pred)
+print("Mean squared error: %.2f" % mse)
+```
 ### Tools
 To implement this project, you would need to use a variety of tools and libraries, including:
 
