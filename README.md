@@ -4,7 +4,7 @@
 This repository contains a collection of data science project ideas related to the stock market domain. These projects are intended to provide inspiration and guidance for aspiring data scientists looking to apply their skills to this field. Each project description provides a brief overview of the problem or question of interest, as well as a list of relevant techniques and algorithms that could be used to address the problem.
 
 ### Project Ideas
-1. **Predictive modeling:** 
+1. **[Predictive modeling:](https://github.com/thabresh-s/Stock-Market/blob/main/predictive-modeling.md)** 
 Use machine learning algorithms to predict stock prices based on historical data. This could involve feature engineering, time-series analysis, and various statistical models.
 
 2. **Sentiment analysis:** 
