@@ -17,6 +17,8 @@ The methodology for this project would involve several key steps:
 
 5. **Model evaluation:** The final step would be to evaluate the performance of the model using appropriate metrics such as mean squared error or R-squared. The model could also be tested on out-of-sample data to assess its ability to generalize to new data.
 
+<script src="https://gist.github.com/thabresh-s/9dc6d4dd06fa8a6ec533dfb2a2065d37.js"></script>
+
 ### Tools
 To implement this project, you would need to use a variety of tools and libraries, including:
 
