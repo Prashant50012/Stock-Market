@@ -69,7 +69,7 @@ print("Mean squared error: %.2f" % mse)
 ### Tools
 To implement this project, you would need to use a variety of tools and libraries, including:
 
-- Python or R for programming
+- Python for programming
 - Pandas and Numpy for data processing
 - Scikit-learn or Keras for machine learning algorithms
 - Matplotlib or Seaborn for data visualization
